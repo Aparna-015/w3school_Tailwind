@@ -22,7 +22,6 @@ header {
 }
 
 .left .logo img {
- 
   height: 40px;
   margin-left: 10px;
   align-items: center;
@@ -83,20 +82,16 @@ header {
   font-family: sans-serif;
 }
 
-.header_btn {
-  display: flex;
-  border: none;
-  gap:5px;
-  align-items: center;
-}
+
 
 .btn_signup {
   background-color: #34915c;
   color: white;
-  border-radius: 15px;
+  border-radius: 20px;
   font-size: 14px;
   border: none;
-  padding: 5px 15px;
+  padding: 10px 20px;
+  margin-right: 10px;
 
  
 }
@@ -104,9 +99,8 @@ header {
 .btn_login {
   background-color: #888383;
   color: black;
- margin-right: 10px;
-padding: 5px 15px;
-border-radius: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
   font-size: 14px;
   border: none;
   
