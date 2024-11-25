@@ -1,0 +1,113 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: greenyellow;
+}
+
+.left {
+  display: flex;
+  gap: 20px;
+
+}
+
+.left .logo img {
+ 
+  height: 40px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav_links div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container .input {
+  width: 150px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  outline: none;
+  margin:9px;
+}
+
+.search-container .search-icon {
+  position: absolute;
+  background-color: white;
+  right: 10px;
+  font-size: 16px;
+}
+
+
+.right_section{
+  display: flex;
+}
+
+.right ul {
+ 
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+ 
+}
+
+.right ul li {
+  
+  color:black;
+  font-family: sans-serif;
+}
+
+.header_btn {
+  display: flex;
+  border: none;
+  gap:5px;
+  align-items: center;
+}
+
+.btn_signup {
+  background-color: #34915c;
+  color: white;
+  border-radius: 15px;
+  font-size: 14px;
+  border: none;
+  padding: 5px 15px;
+
+ 
+}
+
+.btn_login {
+  background-color: #888383;
+  color: black;
+ margin-right: 10px;
+padding: 5px 15px;
+border-radius: 15px;
+  font-size: 14px;
+  border: none;
+  
+}
